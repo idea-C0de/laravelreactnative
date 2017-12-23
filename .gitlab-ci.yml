@@ -1,0 +1,9 @@
+deploy:
+  script:
+    - cd /var/www/html/sikat-backend/
+    - git pull origin master
+    - composer install
+    - php artisan migrate --force
+    - php artisan db:seed --class='PenyulangSeeder' --force
+  only:
+    - master
