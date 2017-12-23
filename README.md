@@ -1,7 +1,9 @@
 # laravelreactnative
 
 
-Aplikasi ini menggunakan Laravel 5.5, api nya dapat digunakan untuk mobile development
+Aplikasi ini menggunakan Laravel 5.5, 
+
+API dapat digunakan untuk mobile development android dan ios melalui react native
 
 Minimum Requirements
 PHP versi 7 atau diatasnya
